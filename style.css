@@ -24,6 +24,7 @@ main {
     background-color: rgb(208, 208, 208);
     width: 80%;
     height: fit-content;
+    background: red;
     padding: 5%;
 }
 footer {
