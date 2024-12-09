@@ -14,22 +14,22 @@
     'menu footer  ';
 }
 .header { grid-area: header; 
-    background-color: rgb(192, 193, 194); 
+    background-color: rgb(217, 217, 217); 
     padding: 2rem;      
 }
 .menu { grid-area: menu; 
-    background-color:rgb(113, 113, 113) ;
+    background-color:rgb(73, 73, 73) ;
     padding: 2rem;
     text-align: left;
 }
 .main { grid-area: main; 
-    background-color:  rgb(192, 193, 194);
+    background-color:  rgb(217, 217, 217);
     padding: 2rem;
 }
 .footer { grid-area: footer; 
     display: flex;
-    background-color:rgb(113, 113, 113) ;
-    padding: 2rem;
+    background-color:rgb(73, 73, 73) ;
+    padding: 1rem;
     text-align: center;
     justify-content: space-evenly;
 }
@@ -45,6 +45,13 @@ h6{
     color: aliceblue;
     font-family: 'Copperplate', sans-serif;
 }
+h1{
+    padding: 2rem;
+}
+h2{
+    text-align: center;
+    padding: 1.5rem;
+}
 h5{
     font-size: smaller;
 }
@@ -55,10 +62,16 @@ h6{
     margin: 1rem;
 }
 p{
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: 'Copperplate', sans-serif;
+    text-align: center;
 }
 a{
     text-decoration: none;
     color: aliceblue;
+}
+img{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
 }
