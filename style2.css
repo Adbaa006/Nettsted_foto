@@ -3,6 +3,15 @@
     padding: 0;
     margin: 0;
     line-height: 2rem;
+    box-sizing: border-box;
+    font: inherit;
+}
+img,
+video,
+svg{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
 }
 .grid-container {
     display: grid;
@@ -70,8 +79,21 @@ a{
     text-decoration: none;
     color: aliceblue;
 }
-img{
+.forsidebilde{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+.fotopakke{
     display: flex;
     padding: 2rem;
-    justify-content: center;
+}
+.tekst{
+    line-height: 200%;
+}
+.bildefp{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    margin: 1rem;
 }
