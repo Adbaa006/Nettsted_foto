@@ -4,7 +4,6 @@
     margin: 0;
     line-height: 2rem;
     box-sizing: border-box;
-    font: inherit;
 }
 img,
 video,
@@ -84,6 +83,12 @@ a{
     height: 500px;
     justify-content: center;
 }
+.forsidebilde2{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    padding: 2rem;
+}
 .fotopakke{
     display: flex;
     padding: 2rem;
@@ -96,4 +101,55 @@ a{
     justify-content: space-evenly;
     height: 300px;
     margin: 1rem;
+}
+.navn{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.epost{
+    display: flex;
+    padding-left: 20.55rem;
+    padding-top: 2rem;
+}
+.valg{
+    display: flex;
+    padding-left: 20.55rem;
+    padding-top: 2rem;
+    flex-direction: column;
+}
+.melding{
+    display: flex;
+    padding-left: 20.55rem;
+    padding-top: 2rem;
+}
+.fotoshoot{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    padding: 2rem;
+}
+.salgsbilder{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    padding: 2rem;
+}
+.OMS24{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    padding: 2rem;
+}
+.Gatebil24{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    padding: 2rem;
+}
+.natur{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    padding: 2rem;
 }
