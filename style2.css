@@ -40,11 +40,15 @@ svg{
     grid-template-rows: auto 1fr;
     grid-template-areas: 
     'insta1 insta2'
-    'instatekst instatekst';
+    'instatekst';
+    gap: 1.5rem;
     justify-content: center;
-    gap: 2rem;
     padding-top: 3rem;
     padding-bottom: 2rem;
+}
+.instatekst{
+    display: flex;
+    justify-content: center;
 }
 .header { grid-area: header; 
     background-color: rgb(217, 217, 217); 
