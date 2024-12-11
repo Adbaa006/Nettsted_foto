@@ -23,12 +23,15 @@ svg{
 }
 .grid-bilder{
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 250px 250px 250px;
     grid-template-areas: 
     'bilde1 bilde2 bilde3'
     'bilde4 bilde5 bilde6'
     'bilde7 bilde8 bilde9' ;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
     justify-content: space-around;
 }
 .header { grid-area: header; 
@@ -139,7 +142,4 @@ a{
     height: 500px;
     justify-content: center;
     padding: 2rem;
-}
-.bilde1{
-    
 }
