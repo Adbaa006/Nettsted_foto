@@ -11,6 +11,7 @@ svg{
     max-width: 100%;
     vertical-align: middle;
     height: auto;
+    border-radius: 12px;
 }
 .grid-container {
     display: grid;
