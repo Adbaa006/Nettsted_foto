@@ -6,6 +6,19 @@ svg{
     height: auto;
     border-radius: 12px;
 }
+.lenkebilder{
+    display: grid;
+    grid-template-areas: 
+    'container'
+    'container'
+    'container'
+    'container'
+    'container';
+    grid-template-columns: 1700px;
+    grid-template-rows: auto;
+    gap: 2rem;
+    padding: 2rem;
+}
 .container {
     position: relative;
     width: 50%;

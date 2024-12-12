@@ -164,27 +164,51 @@ a{
 }
 .lenkebilder{
     display: flex;
-    height: 500px;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: 2rem;
 }
-.lenkebilder:hover{
-    filter: brightness(50%);
-}
-.pic-container {
+.container {
     position: relative;
-    text-align: center;
-    color: black;
-}
-.centered {
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    border-radius: 12px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     font-family: 'Copperplate', sans-serif;
-    font-size: xx-large;
+    font-size: 2rem;
     font-weight: bolder;
-    padding: 50px 50px;
 }
 .bilde1:hover{
     width: 500px;
