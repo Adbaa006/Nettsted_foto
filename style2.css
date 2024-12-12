@@ -168,7 +168,7 @@ a{
     padding: 2rem;
 }
 .lenkebilder:hover{
-    filter: opacity(50%);
+    filter: brightness(50%);
 }
 .pic-container {
     position: relative;
@@ -184,7 +184,7 @@ a{
     font-size: xx-large;
     font-weight: bolder;
     padding: 50px 50px;
-  }
+}
 .bilde1:hover{
     width: 500px;
 }
