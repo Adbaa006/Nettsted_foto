@@ -14,20 +14,21 @@ svg{
     'container'
     'container'
     'container';
-    grid-template-columns: 1700px;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
     gap: 2rem;
     padding: 2rem;
 }
 .container {
     position: relative;
-    width: 50%;
+    width: 800px;
+    margin-inline: auto;
   }
   
   .image {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 800px;
+    height: 500px;
   }
   
   .overlay {
@@ -36,8 +37,8 @@ svg{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     opacity: 0;
     transition: .5s ease;
     background-color: black;

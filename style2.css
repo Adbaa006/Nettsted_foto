@@ -133,6 +133,9 @@ a{
     padding: 5rem;
     justify-content: space-between;
 }
+.fotopakke:hover{
+    background-color: gray;
+}
 .fotopakke img{
     max-height: 300px;
 }
@@ -163,21 +166,29 @@ a{
     padding-top: 2rem;
 }
 .lenkebilder{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2rem;
+    display: grid;
+    grid-template-areas: 
+    'container'
+    'container'
+    'container'
+    'container'
+    'container';
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .container {
     position: relative;
     width: 50%;
+    margin-inline: auto;
   }
   
   .image {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 900px;
+    height: 400px;
   }
   
   .overlay {
@@ -186,8 +197,8 @@ a{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     opacity: 0;
     transition: .5s ease;
     background-color: black;
@@ -209,31 +220,4 @@ a{
     font-family: 'Copperplate', sans-serif;
     font-size: 2rem;
     font-weight: bolder;
-}
-.bilde1:hover{
-    width: 500px;
-}
-.bilde2:hover{
-    width: 500px;
-}
-.bilde3:hover{
-    width: 500px;
-}
-.bilde4:hover{
-    width: 500px;
-} 
-.bilde5:hover{
-    width: 500px;
-}
-.bilde6:hover{
-    width: 500px;
-} 
-.bilde7:hover{
-    width: 500px;
-}
-.bilde8:hover{
-    width: 500px;
-} 
-.bilde9:hover{
-    width: 500px;
 }
