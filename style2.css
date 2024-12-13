@@ -130,8 +130,8 @@ a{
 .fotopakke{
     display: grid;
     grid-template-columns: 1fr auto;
-    padding: 5rem;
-    justify-content: space-between;
+    padding: 3rem;
+    justify-content: space-evenly;
 }
 .fotopakke:hover{
     background-color: gray;
@@ -181,14 +181,12 @@ a{
 }
 .container {
     position: relative;
-    width: 50%;
-    margin-inline: auto;
   }
   
   .image {
     display: block;
     width: 900px;
-    height: 400px;
+    margin-inline: auto;
   }
   
   .overlay {
@@ -198,11 +196,12 @@ a{
     left: 0;
     right: 0;
     height: auto;
-    width: auto;
+    width: 900px;
     opacity: 0;
     transition: .5s ease;
     background-color: black;
     border-radius: 12px;
+    margin-inline: auto;
   }
   
   .container:hover .overlay {
@@ -220,4 +219,40 @@ a{
     font-family: 'Copperplate', sans-serif;
     font-size: 2rem;
     font-weight: bolder;
+}
+.bilde1{
+    width: 350px;
+    height: 233px;
+}
+.bilde2{
+    width: 350px;
+    height: 233px;
+}
+.bilde3{
+    width: 350px;
+    height: 233px;
+}
+.bilde4{
+    width: 350px;
+    height: 233px;
+}
+.bilde5{
+    width: 350px;
+    height: 233px;
+}
+.bilde6{
+    width: 350px;
+    height: 233px;
+}
+.bilde7{
+    width: 350px;
+    height: 233px;
+}
+.bilde8{
+    width: 350px;
+    height: 233px;
+}
+.bilde9{
+    width: 350px;
+    height: 233px;
 }
