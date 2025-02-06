@@ -117,6 +117,14 @@ a{
     text-decoration: none;
     color: aliceblue;
 }
+.button {
+    outline: none;
+    border: none;
+    background: none;
+}
+.button:hover {
+    background-color: rgb(140, 185, 222);
+}
 .forsidebilde{
     display: flex;
     height: 500px;
