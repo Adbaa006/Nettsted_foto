@@ -46,10 +46,9 @@ svg{
     padding-top: 3rem;
     padding-bottom: 0.5rem;
 }
-.instatekst{
+.knapp {
     display: flex;
     justify-content: center;
-    padding-top: 2rem;
 }
 .header { grid-area: header; 
     background-color: rgb(244, 244, 244); 
@@ -118,12 +117,20 @@ a{
     color: aliceblue;
 }
 .button {
-    outline: none;
     border: none;
-    background: none;
+    color: rgb(244, 244, 244);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: aliceblue; 
+    color: black; 
 }
 .button:hover {
-    background-color: rgb(140, 185, 222);
+    background-color: #8cb9de;
+    color: white;
 }
 .forsidebilde{
     display: flex;
