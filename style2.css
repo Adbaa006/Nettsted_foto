@@ -84,10 +84,17 @@ h6{
 }
 h1{
     padding: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #00334e;
+    text-decoration-thickness: 5px;
+    
 }
 h2{
     text-align: center;
     padding: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: #145374;
+    text-decoration-thickness: 2px;
 }
 h5{
     font-size: smaller;
@@ -108,29 +115,29 @@ p{
     padding-bottom: 2rem;
     font-size: larger;
 }
-p:hover {
-    background-color: rgb(140, 185, 222);
-    border-radius: 1.5rem;
-}
 a{
     text-decoration: none;
     color: aliceblue;
 }
-.button {
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #8cb9de;
+}
+button {
     border: none;
-    color: rgb(244, 244, 244);
+    border-radius: 1rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: aliceblue; 
+    background-color: rgb(244, 244, 244); 
     color: black; 
+    font-size: medium;
 }
-.button:hover {
+button:hover {
     background-color: #8cb9de;
-    color: white;
 }
 .forsidebilde{
     display: flex;
@@ -138,11 +145,51 @@ a{
     justify-content: center;
     padding-bottom: 2rem;
 }
+.container2 {
+    position: relative;
+}  
+.overlay2 {
+    position: absolute; 
+    width: 76%;
+    border-radius: 0.5rem;
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.container2:hover .overlay2 {
+    opacity: 1;
+}
 .forsidebilde2{
     display: flex;
     height: 500px;
     justify-content: center;
     padding: 2rem;
+}
+.container3 {
+    position: relative;
+}  
+.overlay3 {
+    position: absolute; 
+    width: 65%;
+    border-radius: 0.5rem;
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.container3:hover .overlay3 {
+    opacity: 1;
 }
 .insta1{
     max-width: 300px;
@@ -172,6 +219,7 @@ a{
 }
 .navn{
     display: flex;
+    padding-top: 1rem;
     justify-content: space-evenly;
     flex-direction: row;
 }
