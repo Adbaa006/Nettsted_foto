@@ -152,7 +152,7 @@ button:hover {
 }
 .forsidebilde{
     display: flex;
-    height: 500px;
+    height: 700px;
     justify-content: center;
     padding-bottom: 2rem;
     padding-top: 30px;
@@ -162,7 +162,7 @@ button:hover {
 }  
 .overlay2 {
     position: absolute; 
-    width: 80%;
+    width: 100%;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     bottom: 2rem; 
