@@ -12,7 +12,6 @@ svg{
     max-width: 100%;
     vertical-align: middle;
     height: auto;
-    border-radius: 12px;
 }
 .grid-container {
     display: grid;
@@ -23,7 +22,7 @@ svg{
     'menu main  '
     'menu footer  ';
 }
-.grid-bilder{
+/* .grid-bilder{
     display: grid;
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: 250px 250px 250px;
@@ -39,6 +38,27 @@ svg{
 }
 .grid-bilder > * {
     border-radius: 12px;
+} */
+.grid-bilder {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+/* .grid-bilder > * {
+    border-radius: 12px;
+} */
+.grid-bilder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.grid-bilder .stort {
+    grid-row: span 2;
+    grid-column: span 2;
 }
 .grid-instabilder{
     display: grid;
@@ -50,6 +70,9 @@ svg{
     justify-content: center;
     padding-top: 3rem;
     padding-bottom: 0.5rem;
+}
+.grid-instabilder div img {
+    border-radius: 12px;
 }
 .knapp {
     display: flex;
@@ -157,6 +180,9 @@ button:hover {
     padding-bottom: 2rem;
     padding-top: 30px;
 }
+.forsidebilde img{
+    border-radius: 12px;
+}
 .container2 {
     position: relative;
 }  
@@ -184,6 +210,9 @@ button:hover {
     height: 500px;
     justify-content: center;
     padding: 2rem;
+}
+.forsidebilde2 img {
+    border-radius: 12px;
 }
 .container3 {
     position: relative;
@@ -316,11 +345,16 @@ button:hover {
 }
 .fotopakke img{
     max-height: 300px;
+    border-radius: 12px;
 }
 .fotopakke div{
     max-width: 500px;
     min-width: 300px;
     line-height: 200%;
+}
+.betaling {
+    padding-left: 150px;
+    padding-right: 50px;
 }
 .navn{
     display: flex;
@@ -357,6 +391,9 @@ button:hover {
     gap: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+.lenkebilder img {
+    border-radius: 12px;
 }
 .container {
     position: relative;
@@ -398,17 +435,4 @@ button:hover {
     font-family: 'Copperplate', sans-serif;
     font-size: 2rem;
     font-weight: bolder;
-}
-.bilde1,
-.bilde2,
-.bilde3,
-.bilde4,
-.bilde5,
-.bilde6,
-.bilde7,
-.bilde8,
-.bilde9{
-    width: 350px;
-    height: 233px;
-    overflow: hidden;
 }
