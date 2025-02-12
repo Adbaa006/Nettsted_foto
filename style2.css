@@ -157,6 +157,9 @@ a:hover {
 ul {
     font-weight: 400;
 }
+li {
+    margin-left: 20px;
+}
 button {
     border: 2px solid #8cb9de;
     border-radius: 1rem;
@@ -351,6 +354,9 @@ button:hover {
     max-width: 500px;
     min-width: 300px;
     line-height: 200%;
+}
+.fotopakke-undertekst {
+    padding-left: 100px;
 }
 .betaling {
     padding-left: 90px;
