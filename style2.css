@@ -176,38 +176,6 @@ button {
 button:hover {
     background-color: #8cb9de;
 }
-/*.forsidebilde{
-    display: flex;
-    height: 700px;
-    justify-content: center;
-    padding-bottom: 2rem;
-    padding-top: 30px;
-}
-.forsidebilde img{
-    border-radius: 12px;
-}
-.container2 {
-    position: relative;
-}  
-.overlay2 {
-    position: absolute; 
-    width: 100%;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-    bottom: 2rem; 
-    background: rgb(0, 0, 0);
-    background: rgba(255, 255, 255, 0.5);
-    color: #f1f1f1; 
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-}
-.container2:hover .overlay2 {
-    opacity: 1;
-}*/
 .slider_container {
     position: relative;
     width: 1000px;
@@ -217,8 +185,9 @@ button:hover {
     align-items: center;
     overflow: hidden;
     background-color: rgb(244, 244, 244);
-    border-radius: 12px;
     margin-inline: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
   .slider {
     position: relative;
