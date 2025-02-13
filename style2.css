@@ -244,13 +244,8 @@ button:hover {
       transform: translateX(-400%);
     }
   }
-  .slideone,
-  .slidetwo,
-  .slidethree,
-  .slidefour {
-    position: relative;
-  }  
-  .overlay-slide1,
+  
+  /*.overlay-slide1,
   .overlay-slide2,
   .overlay-slide3,
   .overlay-slide4 {
@@ -267,7 +262,7 @@ button:hover {
     padding: 15px;
     font-size: 20px;
     text-align: center;
-  }
+  }*/
 .forsidebilde2{
     display: flex;
     height: 500px;
