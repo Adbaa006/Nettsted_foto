@@ -21,6 +21,13 @@ svg{
     'menu header '
     'menu main  '
     'menu footer  ';
+    @media only screen and (max-width: 600px) {
+        grid-template-areas:
+        'header'
+        'menu'
+        'main' 
+        'footer';
+    }
 }
 /* .grid-bilder{
     display: grid;
