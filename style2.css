@@ -24,8 +24,8 @@ svg{
     @media only screen and (max-width: 600px) {
         grid-template-areas:
         'header'
-        'menu'
         'main' 
+        'menu'
         'footer';
     }
 }
@@ -92,6 +92,10 @@ svg{
     background-color:rgb(58, 58, 58) ;
     padding: 2rem;
     text-align: left;
+    @media only screen and (max-width: 600px) {
+       display: flex;
+       flex-direction: column;
+    }
 }
 .main { grid-area: main; 
     background-color:  rgb(244, 244, 244);
