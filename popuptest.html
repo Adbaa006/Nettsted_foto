@@ -7,108 +7,112 @@
     <link rel="stylesheet" href="popuptest.css">
 </head>
 <body>
-    <section class="grid-bilder"></section>
-        <dialog id="popUp"> 
-            <img src="Images/gullModified.webp" alt="">
-        </dialog> 
-        <button id="lukk" onClick="popUp.close()"> 
-            
-        </button> 
-        <button onClick="popUp.showModal()"> 
-            <img src="Images/gullModified.webp" alt=""> 
-        </button> 
+    <container class="grid-container">
+        <header class="header">
+            <h1>Hei, jeg er Adele</h1>
+        </header>
+        <menu class="menu">
+            <a href="index.html">
+                <h4>Adele_autoportaits</h4>
+            </a>
+            <a href="index.html">
+                <h5>Forside</h5>
+            </a>
+            <a href="bilder.html">
+                 <h5>Bilder</h5>
+             </a>
+            <a href="priser.html">
+                <h5>Priser</h5>
+            </a>
+            <a href="kontakt.html">
+                <h5>Kontakt meg</h5>
+            </a>
+        </menu>
+        <main class="main">
+            <section class="grid-bilder">
+            <button id="bildeEnKnapp" onClick="bildeEnDialog.showModal()">
+                <img src="Images/gullModified.webp" alt="">
+            </button>
+            <dialog onClick="bildeEnDialog.close()" id="bildeEnDialog">
+                <img src="Images/gullModified.webp" alt="">
+                <button id="lukk" onClick="popUp.close()">X</button>
+            </dialog> 
 
-        <dialog id="popUp"> 
+            <button id="bildeEnKnapp" onClick="bildeToDialog.showModal()">
+                <img src="Images/blikkboksnerbakfra.webp" alt="">
+            </button>
+            <dialog onClick="bildeToDialog.close()" id="bildeToDialog">
+                <img src="Images/blikkboksnerbakfra.webp" alt="">
+                <button id="lukk" onClick="popUp.close()">X</button>
+            </dialog>
+
             <div class="stort">
-                <img src="Images/rodBMWskogtotal.webp" alt="">
+                <button id="bildeEnKnapp" onClick="bildeTreDialog.showModal()">
+                    <img src="Images/rodBMWskogtotal.webp" alt="">
+                </button>
+                <dialog onClick="bildeTreDialog.close()" id="bildeTreDialog">
+                    <img src="Images/rodBMWskogtotal.webp" alt="">
+                    <button id="lukk" onClick="popUp.close()">X</button>
+                </dialog>
             </div>
-        </dialog> 
-        <button id="lukk" onClick="popUp.close()"> 
-            
-        </button> 
-        <button onClick="popUp.showModal()"> 
-            <img src="Images/rodBMWskogtotal.webp" alt="">
-        </button> 
-        
-        <dialog id="popUp"> 
-            <img src="Images/svartBMWvaskes.webp" alt="">
-        </dialog> 
-        <button id="lukk" onClick="popUp.close()"> 
-            
-        </button> 
-        <button onClick="popUp.showModal()"> 
-            Åpne 
-        </button> 
-        
-        <dialog id="popUp"> 
-            <img src="Images/blikkboksnerbakfra.webp" alt="">
-        </dialog> 
-        <button id="lukk" onClick="popUp.close()"> 
-            
-        </button> 
-        <button onClick="popUp.showModal()"> 
-            Åpne 
-        </button> 
-        
-        <dialog id="popUp"> 
-            <img src="Images/hvitModified.webp" alt="">
-        </dialog> 
-        <button id="lukk" onClick="popUp.close()"> 
-            
-        </button> 
-        <button onClick="popUp.showModal()"> 
-            Åpne 
-        </button> 
-        
-        <dialog id="popUp"> 
-            <img src="Images/gullModified.webp" alt="">
-        </dialog> 
-        <button id="lukk" onClick="popUp.close()"> 
-            
-        </button> 
-        <button onClick="popUp.showModal()"> 
-            Åpne 
-        </button> 
-        <img src="Images/marlboroBMWner.webp" alt="">
-        <dialog id="popUp"> 
-            
-        </dialog> 
-        <button id="lukk" onClick="popUp.close()"> 
-            
-        </button> 
-        <button onClick="popUp.showModal()"> 
-            Åpne 
-        </button> 
-        <img src="Images/svartBMWovenfrabusk.webp" alt="">
-        <dialog id="popUp"> 
-            <img src="Images/gullModified.webp" alt="">
-        </dialog> 
-        <button id="lukk" onClick="popUp.close()"> 
-            
-        </button> 
-        <button onClick="popUp.showModal()"> 
-            Åpne 
-        </button> 
-        <img src="Images/oransjCamarobane.webp" alt="">
-        <dialog id="popUp"> 
-            <img src="Images/gullModified.webp" alt="">
-        </dialog> 
-        <button id="lukk" onClick="popUp.close()"> 
-            
-        </button> 
-        <button onClick="popUp.showModal()"> 
-            Åpne 
-        </button> 
-        <img src="Images/rodMerceneremblem.webp" alt="">
-        <dialog id="popUp"> 
-            <img src="Images/gullModified.webp" alt="">
-        </dialog> 
-        <button id="lukk" onClick="popUp.close()"> 
-            
-        </button> 
-        <button onClick="popUp.showModal()"> 
-            Åpne 
-        </button> 
-    </section>
+
+            <button id="bildeEnKnapp" onClick="bildeFireDialog.showModal()">
+                <img src="Images/svartBMWvaskes.webp" alt="">
+            </button>
+            <dialog onClick="bildeFireDialog.close()" id="bildeFireDialog">
+                <img src="Images/svartBMWvaskes.webp" alt="">
+                <button id="lukk" onClick="popUp.close()">X</button>
+            </dialog>
+
+            <button id="bildeEnKnapp" onClick="bildeFemDialog.showModal()">
+                <img src="Images/hvitModified.webp" alt="">
+            </button>
+            <dialog onClick="bildeFemDialog.close()" id="bildeFemDialog">
+                <img src="Images/hvitModified.webp" alt="">
+                <button id="lukk" onClick="popUp.close()">X</button>
+            </dialog>
+
+            <button id="bildeEnKnapp" onClick="bildeSeksDialog.showModal()">
+                <img src="Images/marlboroBMWner.webp" alt="">
+            </button>
+            <dialog onClick="bildeSeksDialog.close()" id="bildeSeksDialog">
+                <img src="Images/marlboroBMWner.webp" alt="">
+                <button id="lukk" onClick="popUp.close()">X</button>
+            </dialog>
+
+            <button id="bildeEnKnapp" onClick="bildeSyvDialog.showModal()">
+                <img src="Images/svartBMWovenfra.webp" alt="">
+            </button>
+            <dialog onClick="bildeSyvDialog.close()" id="bildeSyvDialog">
+                <img src="Images/svartBMWovenfra.webp" alt="">
+                <button id="lukk" onClick="popUp.close()">X</button>
+            </dialog>
+
+            <button id="bildeEnKnapp" onClick="bildeÅtteDialog.showModal()">
+                <img src="Images/oransjCamarobane.webp" alt="">
+            </button>
+            <dialog onClick="bildeÅtteDialog.close()" id="bildeÅtteDialog">
+                <img src="Images/oransjCamarobane.webp" alt="">
+                <button id="lukk" onClick="popUp.close()">X</button>
+            </dialog>
+
+            <button id="bildeEnKnapp" onClick="bildeNiDialog.showModal()">
+                <img src="Images/rodMerceneremblem.webp" alt="">
+            </button>
+            <dialog onClick="bildeNiDialog.close()" id="bildeNiDialog">
+                <img src="Images/rodMerceneremblem.webp" alt="">
+                <button id="lukk" onClick="popUp.close()">X</button>
+            </dialog>
+            </section>
+        </main>
+        <footer class="footer">
+            <a href="kontakt.html">
+                <h4>Kontakt meg</h4>
+            </a>
+            <a href="https://www.instagram.com/adele_autoportraits/" target="_blank">
+                <h4>Følg meg på instagram</h4>
+            </a>
+        </footer>
+    </container>
 </body>
 </html>
