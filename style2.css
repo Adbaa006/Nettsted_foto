@@ -442,3 +442,16 @@ button:hover {
     font-size: 2rem;
     font-weight: bolder;
 }
+dialog { 
+    position: relative; 
+    margin: auto; 
+    width: 1200px; 
+    height: 800px;
+    border: 5px solid #145374;
+    border-radius: 19px;
+    background-color: rgb(244, 244, 244);  
+} 
+dialog::backdrop { 
+    background-color: Black; 
+    opacity: 0.4; 
+} 

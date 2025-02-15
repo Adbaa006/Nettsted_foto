@@ -46,6 +46,88 @@
     text-align: center;
     justify-content: space-evenly;
 }
+h1,
+h2,
+h3{
+    color: black;
+    font-family: 'Copperplate', sans-serif;
+}
+h4,
+h5,
+h6{
+    color: aliceblue;
+    font-family: 'Copperplate', sans-serif;
+}
+h1{
+    margin-left: 135px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: #00334e;
+    text-decoration-thickness: 5px;
+}
+h2{
+    text-align: center;
+    padding: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: #8cb9de;
+    text-decoration-thickness: 2px;
+    font-size:x-large;
+}
+h3 {
+    text-decoration: underline;
+    text-decoration-color: #145374;
+    text-decoration-thickness: 1px;
+}
+h5{
+    font-size: smaller;
+}
+h6{
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    margin: 1rem;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Baskerville', sans-serif;
+    text-align: left;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 2rem;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #f0f8ff;
+}
+ul {
+    font-weight: 400;
+}
+li {
+    margin-left: 20px;
+}
+button {
+    border: 2px solid #8cb9de;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(244, 244, 244); 
+    color: black; 
+    font-size: medium;
+}
+button:hover {
+    background-color: #8cb9de;
+}
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -55,27 +137,15 @@ dialog {
     position: relative; 
     margin: auto; 
     width: 1200px; 
-    height: 800px;  
+    height: 800px;
+    border: 5px solid #145374;
+    border-radius: 19px;
+    background-color: rgb(244, 244, 244);  
 } 
 dialog::backdrop { 
     background-color: Black; 
     opacity: 0.4; 
 } 
-/*dialog button { 
-    padding-inline: 1rem; 
-    padding-block: 0.5rem; 
-    margin-block: 0.5rem; 
-} */
-/*dialog img {
-    display: block;
-    width: auto;
-    height: auto;
-}*/
-/*.lukk { 
-    position: absolute; 
-    top: 0.5rem; 
-    right: 1rem; 
-} */
 .grid-bilder {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -84,9 +154,6 @@ dialog::backdrop {
     padding-top: 2rem;
     padding-bottom: 1.5rem;
 }
-/* .grid-bilder > * {
-    border-radius: 12px;
-} */
 .grid-bilder img {
     width: 100%;
     height: 100%;

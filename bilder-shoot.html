@@ -56,19 +56,81 @@
             <p>Jeg spesialiserer meg på å fange de slanke linjene, rå kraften og intrikate detaljene som gjør hver bil unik. Enten det er en klassisk muskelbil, en høyytelses sportsbil eller et spesialbygget mesterverk vet jeg at hvert kjøretøy forteller sin egen historie – og jeg er her for å fortelle den gjennom bildene.</p>
             <p>Med et skarpt øye for bilestetikk og en dyp forståelse for håndverket bak hver bil, skaper jeg dynamiske, effektfulle bilder som viser frem kjøretøyet ditt i sitt beste lys. Fra dramatiske bilder som fremhever dristige kurver til nærbilder som fanger de fine detaljene. Fotograferingen min går lenger enn bare å dokumentere bilen din – det handler om å feire kunsten med bildesign.</p>
             <p>Utforsk porteføljen min for å se hvordan jeg bringer bilens historie til live. La oss jobbe sammen for å ta bilder som etterlater et varig inntrykk.</p>
-        <section class="grid-bilder">
-                <img src="Images/gullModified.webp" alt="">
-                <div class="stort">
-                    <img src="Images/rodBMWskogtotal.webp" alt="">
-                </div>
-                <img src="Images/svartBMWvaskes.webp" alt="">
-                <img src="Images/blikkboksnerbakfra.webp" alt="">
-                <img src="Images/hvitModified.webp" alt="">
-                <img src="Images/marlboroBMWner.webp" alt="">
-                <img src="Images/svartBMWovenfrabusk.webp" alt="">
-                <img src="Images/oransjCamarobane.webp" alt="">
-                <img src="Images/rodMerceneremblem.webp" alt="">
-        </section>
+                <section class="grid-bilder">
+                    <button id="bildeEnKnapp" onClick="bildeEnDialog.showModal()">
+                        <img src="Images/gullModified.webp" alt="">
+                    </button>
+                    <dialog onClick="bildeEnDialog.close()" id="bildeEnDialog">
+                        <img src="Images/gullModified.webp" alt="">
+                        <button id="lukk" onClick="popUp.close()"></button>
+                    </dialog> 
+                    
+                    <div class="stort">
+                        <button id="bildeEnKnapp" onClick="bildeTreDialog.showModal()">
+                            <img src="Images/rodBMWskogtotal.webp" alt="">
+                        </button>
+                        <dialog onClick="bildeTreDialog.close()" id="bildeTreDialog">
+                            <img src="Images/rodBMWskogtotal.webp" alt="">
+                            <button id="lukk" onClick="popUp.close()"></button>
+                        </dialog>
+                    </div>
+        
+                    <button id="bildeEnKnapp" onClick="bildeToDialog.showModal()">
+                        <img src="Images/blikkboksnerbakfra.webp" alt="">
+                    </button>
+                    <dialog onClick="bildeToDialog.close()" id="bildeToDialog">
+                        <img src="Images/blikkboksnerbakfra.webp" alt="">
+                        <button id="lukk" onClick="popUp.close()"></button>
+                    </dialog>
+        
+                    <button id="bildeEnKnapp" onClick="bildeFireDialog.showModal()">
+                        <img src="Images/svartBMWvaskes.webp" alt="">
+                    </button>
+                    <dialog onClick="bildeFireDialog.close()" id="bildeFireDialog">
+                        <img src="Images/svartBMWvaskes.webp" alt="">
+                        <button id="lukk" onClick="popUp.close()"></button>
+                    </dialog>
+        
+                    <button id="bildeEnKnapp" onClick="bildeFemDialog.showModal()">
+                        <img src="Images/hvitModified.webp" alt="">
+                    </button>
+                    <dialog onClick="bildeFemDialog.close()" id="bildeFemDialog">
+                        <img src="Images/hvitModified.webp" alt="">
+                        <button id="lukk" onClick="popUp.close()"></button>
+                    </dialog>
+        
+                    <button id="bildeEnKnapp" onClick="bildeSeksDialog.showModal()">
+                        <img src="Images/marlboroBMWner.webp" alt="">
+                    </button>
+                    <dialog onClick="bildeSeksDialog.close()" id="bildeSeksDialog">
+                        <img src="Images/marlboroBMWner.webp" alt="">
+                        <button id="lukk" onClick="popUp.close()"></button>
+                    </dialog>
+        
+                    <button id="bildeEnKnapp" onClick="bildeSyvDialog.showModal()">
+                        <img src="Images/svartBMWovenfra.webp" alt="">
+                    </button>
+                    <dialog onClick="bildeSyvDialog.close()" id="bildeSyvDialog">
+                        <img src="Images/svartBMWovenfra.webp" alt="">
+                        <button id="lukk" onClick="popUp.close()"></button>
+                    </dialog>
+        
+                    <button id="bildeEnKnapp" onClick="bildeÅtteDialog.showModal()">
+                        <img src="Images/oransjCamarobane.webp" alt="">
+                    </button>
+                    <dialog onClick="bildeÅtteDialog.close()" id="bildeÅtteDialog">
+                        <img src="Images/oransjCamarobane.webp" alt="">
+                        <button id="lukk" onClick="popUp.close()"></button>
+                    </dialog>
+        
+                    <button id="bildeEnKnapp" onClick="bildeNiDialog.showModal()">
+                        <img src="Images/rodMerceneremblem.webp" alt="">
+                    </button>
+                    <dialog onClick="bildeNiDialog.close()" id="bildeNiDialog">
+                        <img src="Images/rodMerceneremblem.webp" alt="">
+                        <button id="lukk" onClick="popUp.close()"></button>
+                    </dialog>
+                    </section>
         </main>  
         <footer class="footer">
             <a href="kontakt.html">
