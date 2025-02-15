@@ -57,18 +57,79 @@
             <p>Enten det er en rolig soloppgang over en tåkete dal, en levende skog i full blomst eller de subtile strukturene til dyrelivet i dets naturlige habitat, tar bildene mine deg inn i naturens mest fantastiske øyeblikk. Med fokus på komposisjon, lys og naturens stadig skiftende stemninger, tar jeg sikte på å lage bilder som inspirerer ærefrykt og verdsettelse for jorden rundt oss</p>
             <p>Utforsk porteføljen min for å oppleve naturens skjønnhet gjennom linsen min. La oss bringe freden, kraften og prakten til utendørs inn i rommet ditt.</p>
             <section class="grid-bilder">
+                <button id="bildeEnKnapp" onClick="bildeEnDialog.showModal()">
                     <img src="Images/hvit-blomst.webp" alt="">
-                    <div class="stort">
+                </button>
+                <dialog onClick="bildeEnDialog.close()" id="bildeEnDialog">
+                    <img src="Images/hvit-blomst.webp" alt="">
+                    <button id="lukk" onClick="popUp.close()"></button>
+                </dialog> 
+                <div class="stort">
+                    <button id="bildeEnKnapp" onClick="bildeTreDialog.showModal()">
                         <img src="Images/rosa-blomst.webp" alt="">
-                    </div>
+                    </button>
+                    <dialog onClick="bildeTreDialog.close()" id="bildeTreDialog">
+                        <img src="Images/rosa-blomst.webp" alt="">
+                        <button id="lukk" onClick="popUp.close()"></button>
+                    </dialog>
+                </div>
+    
+                <button id="bildeEnKnapp" onClick="bildeToDialog.showModal()">
                     <img src="Images/hvit&lilla-blomst.webp" alt="">
+                </button>
+                <dialog onClick="bildeToDialog.close()" id="bildeToDialog">
+                    <img src="Images/hvit&lilla-blomst.webp" alt="">
+                    <button id="lukk" onClick="popUp.close()"></button>
+                </dialog>
+    
+                <button id="bildeEnKnapp" onClick="bildeFireDialog.showModal()">
                     <img src="Images/gul-blomst.webp" alt="">
+                </button>
+                <dialog onClick="bildeFireDialog.close()" id="bildeFireDialog">
+                    <img src="Images/gul-blomst.webp" alt="">
+                    <button id="lukk" onClick="popUp.close()"></button>
+                </dialog>
+    
+                <button id="bildeEnKnapp" onClick="bildeFemDialog.showModal()">
                     <img src="Images/gress-m-blomster.webp" alt="">
+                </button>
+                <dialog onClick="bildeFemDialog.close()" id="bildeFemDialog">
+                    <img src="Images/gress-m-blomster.webp" alt="">
+                    <button id="lukk" onClick="popUp.close()"></button>
+                </dialog>
+    
+                <button id="bildeEnKnapp" onClick="bildeSeksDialog.showModal()">
                     <img src="Images/humle.webp" alt="">
+                </button>
+                <dialog onClick="bildeSeksDialog.close()" id="bildeSeksDialog">
+                    <img src="Images/humle.webp" alt="">
+                    <button id="lukk" onClick="popUp.close()"></button>
+                </dialog>
+    
+                <button id="bildeEnKnapp" onClick="bildeSyvDialog.showModal()">
                     <img src="Images/gresstra.webp" alt="">
+                </button>
+                <dialog onClick="bildeSyvDialog.close()" id="bildeSyvDialog">
+                    <img src="Images/gresstra.webp" alt="">
+                    <button id="lukk" onClick="popUp.close()"></button>
+                </dialog>
+    
+                <button id="bildeEnKnapp" onClick="bildeÅtteDialog.showModal()">
                     <img src="Images/hvit&lilla-blomst2.webp" alt="">
+                </button>
+                <dialog onClick="bildeÅtteDialog.close()" id="bildeÅtteDialog">
+                    <img src="Images/hvit&lilla-blomst2.webp" alt="">
+                    <button id="lukk" onClick="popUp.close()"></button>
+                </dialog>
+    
+                <button id="bildeEnKnapp" onClick="bildeNiDialog.showModal()">
                     <img src="Images/hvit-blomst3.webp" alt="">
-            </section>
+                </button>
+                <dialog onClick="bildeNiDialog.close()" id="bildeNiDialog">
+                    <img src="Images/hvit-blomst3.webp" alt="">
+                    <button id="lukk" onClick="popUp.close()"></button>
+                </dialog>
+                </section>
         </main>  
         <footer class="footer">
             <a href="kontakt.html">
