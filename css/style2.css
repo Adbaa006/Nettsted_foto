@@ -5,7 +5,6 @@
     margin: 0;
     line-height: 30px;
     box-sizing: border-box;
-    max-width: 1200px;
 }
 img,
 video,
@@ -15,8 +14,9 @@ svg{
     height: auto;
 }
 .grid-container {
-    display: grid;
     max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
