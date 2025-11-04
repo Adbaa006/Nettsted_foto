@@ -15,6 +15,7 @@ svg{
 }
 .grid-container {
     display: grid;
+    max-width: 1200px;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
@@ -24,8 +25,8 @@ svg{
     @media only screen and (max-width: 600px) {
         grid-template-areas:
         'header'
-        'main' 
-        'menu'
+        'menu' 
+        'main'
         'footer';
     }
 }
