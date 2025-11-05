@@ -23,6 +23,7 @@ svg{
     'menu header '
     'menu main  '
     'menu footer  ';
+    height: 100vh;
     @media only screen and (max-width: 600px) {
         grid-template-areas:
         'header'
@@ -104,6 +105,8 @@ svg{
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
+    flex: 1;
+    overflow-y: auto;
 }
 .footer { grid-area: footer; 
     display: flex;
