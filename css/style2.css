@@ -14,7 +14,7 @@ svg{
     height: auto;
 }
 .grid-container {
-    max-width: 1200px;
+    max-width: auto;
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto 1fr;
@@ -347,7 +347,7 @@ button:hover {
 }  
 .overlay2 {
     position: absolute; 
-    width: 66%;
+    width: 70%;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
     bottom: 30px;
@@ -435,7 +435,7 @@ button:hover {
     left: 0;
     right: 0;
     height: auto;
-    width: auto;
+    width: 900px;
     opacity: 0;
     transition: .2s ease;
     background-color: black;
