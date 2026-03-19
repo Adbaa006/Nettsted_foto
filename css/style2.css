@@ -186,6 +186,7 @@ a{
 a:hover {
     text-decoration: underline;
     text-decoration-color: #f0f8ff;
+    cursor: pointer;
 }
 ul {
     font-weight: 400;
@@ -347,7 +348,7 @@ button:hover {
 }  
 .overlay2 {
     position: absolute; 
-    width: 70%;
+    width: 75%;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
     bottom: 30px;
@@ -472,3 +473,7 @@ dialog::backdrop {
     background-color: Black; 
     opacity: 0.4; 
 } 
+.mail {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
